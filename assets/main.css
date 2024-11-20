@@ -1,0 +1,69 @@
+.our-team {
+    border: 1px solid #dedede;
+    text-align: center;
+    color: #0cc3df;
+    overflow: hidden;
+    position: relative; /* Make sure the child element is positioned relative to this container */
+    transition: all 0.3s ease 0s;
+}
+
+.our-team:hover {
+    background: #0cc3df;
+    color: #fff;
+}
+
+.our-team .pic {
+    position: relative;
+}
+
+.our-team .pic img {
+    width: 100%; /* Make the image fit the width of the .our-team container */
+    height: auto; /* Maintain the aspect ratio */
+    border-bottom: 1px solid #dedede; /* Optional: Add a separator below the image */
+    transition: all 0.3s ease 0s;
+}
+
+.our-team:hover .pic img {
+    transform: translateY(-20px);
+}
+
+.our-team .team-content {
+    padding: 25px 0;
+}
+
+.our-team .title {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.our-team .post {
+    display: block;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.our-team .talk {
+    position:relative; /* Position the "talk to me" section relative to the parent */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8); /* Add a background for visibility */
+    color: #fff;
+    font-size: 14px;
+    display: none; /* Initially hide the element */
+    text-align: center;
+}
+
+.our-team:hover .talk {
+    display: block; /* Show the element on hover */
+}
+
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 30px;
+    }
+}
