@@ -1,6 +1,5 @@
 body {
-    background: url("assets/bg.jpeg");
-    background-color: #cccccc;
+    background-image: url("bg.jpeg");
 }
 
 .our-team {
