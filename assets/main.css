@@ -1,3 +1,8 @@
+body {
+    background: url("assets/bg.jpeg");
+    background-color: #cccccc;
+}
+
 .our-team {
     border: 1px solid #dedede;
     text-align: center;
